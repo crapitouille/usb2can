@@ -42,11 +42,11 @@ from gs_usb.constants import (
 
 #innomaker usb2can device do not support the GS_USB_MODE_NO_ECHO_BACK mode
 from gs_usb.gs_usb import (
-    GS_USB_MODE_NORMAL ,
-    GS_USB_MODE_LISTEN_ONLY ,
-    GS_USB_MODE_LOOP_BACK ,
-    GS_USB_MODE_ONE_SHOT ,
-    #GS_USB_MODE_NO_ECHO_BACK,
+    GS_CAN_MODE_NORMAL ,
+    GS_CAN_MODE_LISTEN_ONLY ,
+    GS_CAN_MODE_LOOP_BACK ,
+    GS_CAN_MODE_ONE_SHOT ,
+    #GS_CAN_MODE_NO_ECHO_BACK,
 )
 
 
